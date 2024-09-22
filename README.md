@@ -103,12 +103,13 @@ objects/: Salesforce Object definitions, if the project involves creating custom
 Contributions are welcome! If you’d like to contribute to this repository:
 
 Fork the repository.
+```
 Create a new branch (git checkout -b feature-branch).
 Commit your changes (git commit -m 'Add a new feature').
 Push to the branch (git push origin feature-branch).
 Open a Pull Request.
 Please make sure your code follows the standard Salesforce DX guidelines.
-
+```
 ---
 
 ## License
