@@ -17,9 +17,9 @@
 This repository provides examples, best practices, and exercises for building **Lightning Web Components (LWC)** and integrating Salesforce with external services. Whether you're just getting started with LWC or looking to deepen your integration skills, this repo has got you covered.
 
 ### Key Topics:
-- **Lightning Web Components (LWC)**: Custom UI components built with modern web standards.
-- **Salesforce Integration**: Learn how to connect Salesforce with external systems using REST, SOAP, and Platform Events.
-- **Apex Controllers**: Handle backend logic, create REST endpoints, and manage transactions.
+- Lightning Web Components (LWC): Custom UI components built with modern web standards.
+- Salesforce Integration: Learn how to connect Salesforce with external systems using REST, SOAP, and Platform Events.
+- Apex Controllers: Handle backend logic, create REST endpoints, and manage transactions.
 
 
 ---
