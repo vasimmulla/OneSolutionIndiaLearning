@@ -3,7 +3,6 @@
 
 - [Introduction](#introduction)
 - [Getting Started](#getting-started)
-- [Folder Structure](#folder-structure)
 - [Prerequisites](#prerequisites)
 - [Setup](#setup)
 - [Key Features](#key-features)
@@ -76,6 +75,7 @@ Follow these steps to set up the project locally:
 
 Here’s an overview of the folder structure:
 
+```bash
 lwc-integration-learning/
 │
 ├── force-app/main/default/
@@ -87,14 +87,15 @@ lwc-integration-learning/
 │   └── objects/                # Salesforce object definitions
 ├── scripts/                    # Utility scripts (if any)
 └── README.md                   # Project documentation
-
+```
 ---
 
 ## Key Folders:
+```
 lwc/: Contains all Lightning Web Components (LWC) such as file uploaders, PDF generators, and integration components.
 apex/: Contains Apex classes for handling backend logic and API calls.
 objects/: Salesforce Object definitions, if the project involves creating custom objects.
-
+```
 ---
 
 ## Contributing
