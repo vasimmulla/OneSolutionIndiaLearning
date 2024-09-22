@@ -104,13 +104,6 @@ Push to the branch (git push origin feature-branch).
 Open a Pull Request.
 Please make sure your code follows the standard Salesforce DX guidelines.
 
-Resources
-Here are some useful resources to help you on your learning journey:
-
-Salesforce LWC Developer Guide: Official Documentation [https://developer.salesforce.com/docs/platform/lwc/guide]
-Salesforce Apex Developer Guide: Official Documentation
-Salesforce REST API Developer Guide: REST API Documentation
-Salesforce Integration Patterns and Practices: Integration Guide
 
 License
 This repository is licensed under the MIT License.
