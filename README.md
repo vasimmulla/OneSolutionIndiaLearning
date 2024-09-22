@@ -3,6 +3,7 @@
 
 - [Introduction](#introduction)
 - [Getting Started](#getting-started)
+- [Folder Structure](#folder-structure)
 - [Prerequisites](#prerequisites)
 - [Setup](#setup)
 - [Key Features](#key-features)
