@@ -76,7 +76,7 @@ Follow these steps to set up the project locally:
 Here’s an overview of the folder structure:
 
 ```bash
-lwc-integration-learning/
+OneSolutionIndiaLearning/
 │
 ├── force-app/main/default/
 │   ├── lwc/                   # Lightning Web Components
