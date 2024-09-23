@@ -1,0 +1,43 @@
+.card{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    box-sizing: content-box;
+}
+
+img{
+    display: flex;
+    padding: 10px;
+    margin-left: 10px;
+    border: 1px;
+    border-radius: 2px;
+    border-style: solid;
+    height: 300px;
+    width: 400px;
+}
+
+h4{
+    padding: 10px;
+    display: flex;
+    justify-content: left;
+    color: chocolate;
+    font-weight: bold;
+
+}
+
+h3{
+    padding: 10px;
+    display: flex;
+    justify-content: left;
+    color: blue;
+    font-size: 15px;
+    width: 70%;
+
+}
+
+a{
+    color: purple;
+    font-size: 12px;
+}
