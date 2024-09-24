@@ -20,7 +20,7 @@ export default class NasaImageDisplay_LWC extends LightningElement {
     }
 
     formatImageData(res){
-        this.result = JSON.parse(res); //COnvert String Data Into Javascript Object
+        this.result = JSON.parse(res); //Convert String Data Into Javascript Object
         console.log(this.result);
     }
 
