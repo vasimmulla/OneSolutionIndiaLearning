@@ -1,6 +1,6 @@
 public class OCRSpaceService {
     private static final String API_URL = 'https://api.ocr.space/parse/image';
-    private static final String API_KEY = 'K83503778688957';  // Your API key
+    private static final String API_KEY = 'Your API key';  // Your API key
     
     public static String extractTextFromImage(String base64Image) {
         HttpRequest request = new HttpRequest();
