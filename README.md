@@ -80,8 +80,6 @@ OneSolutionIndiaLearning/
 │
 ├── force-app/main/default/
 │   ├── lwc/                   # Lightning Web Components
-│   │   ├── fileUploader/       # Example: Drag and Drop File Uploader
-│   │   └── pdfGenerator/       # Example: Generate PDF from LWC
 │   ├── apex/                   # Apex Controllers for backend logic
 │   ├── aura/                   # Aura components (if any)
 │   └── objects/                # Salesforce object definitions
