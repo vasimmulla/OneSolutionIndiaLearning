@@ -1,0 +1,14 @@
+<template>
+    <lightning-card title="Static Resources" icon-name="custom:custom63">
+        <template if:true={staticResources}>
+            <lightning-datatable
+                key-field="id"
+                data={staticResources}
+                columns={columns}>
+            </lightning-datatable>
+        </template>
+        <template if:true={error}>
+            <p class="slds-text-color_error">{error}</p>
+        </template>
+    </lightning-card>
+</template>
