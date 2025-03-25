@@ -1,0 +1,11 @@
+<template>
+    <lightning-card title="LWC Web Browser" icon-name="utility:world">
+        <div class="slds-m-around_medium">
+            <lightning-input type="url" label="Enter URL" value={url} 
+                onchange={handleUrlChange}></lightning-input>
+        </div>
+        <div class="slds-m-around_medium iframe-container">
+            <iframe src={url} class="browser-frame"></iframe>
+        </div>
+    </lightning-card>
+</template>
