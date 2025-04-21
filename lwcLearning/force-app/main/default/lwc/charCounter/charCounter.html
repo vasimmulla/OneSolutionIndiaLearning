@@ -1,0 +1,22 @@
+<template>
+    <lightning-card title="Real-Time Character Counter" icon-name="utility:edit">
+        <div class="slds-p-around_medium">
+            <label for="inputText">Enter Text:</label>
+            <textarea 
+                id="inputText" 
+                class="slds-textarea" 
+                placeholder="Start typing..." 
+                maxlength={maxChars}
+                oninput={handleInput}>
+            </textarea>
+
+            <p class="slds-m-top_small">
+                Characters :  
+                <span 
+                    class={charCountClass}>
+                    {charCount}/{maxChars}
+                </span>
+            </p>
+        </div>
+    </lightning-card>
+</template>
