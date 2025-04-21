@@ -1,0 +1,32 @@
+<template>
+    <lightning-card title="Sales Prediction" icon-name="standard:opportunity">
+        <div class="slds-m-around_medium">
+            <lightning-input 
+                label="Enter Marketing Spend ($)"
+                value={marketingSpend}
+                class="input-marketing-spend"
+                onchange={handleInputChange} 
+                type="number">
+            </lightning-input>
+
+            <template if:true={valueNull}>
+                <p class="slds-m-around_medium">
+                    <strong style="color: red;">Please Enter A Value</strong>
+                </p>
+            </template>
+            
+            <lightning-button 
+                label="Predict Sales" 
+                onclick={predictSales}
+                class="btn-predict-sales"
+                variant="brand">
+            </lightning-button>
+
+            <template if:true={predictedSales}>
+                <p class="slds-m-top_medium">
+                    <strong>Predicted Sales:</strong> ${predictedSales}
+                </p>
+            </template>
+        </div>
+    </lightning-card>
+</template>
