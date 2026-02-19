@@ -1,0 +1,14 @@
+<template>
+    <lightning-card title="Create Account Record">
+        <lightning-button 
+            label="Create Account"
+            onclick={handleCreate}>
+        </lightning-button>
+    </lightning-card>
+
+    <template if:true={accounts}>
+        <template for:each={accounts} for:item="acc">
+          <p key={acc.Id}>{acc.Name} - {acc.Industry}</p>
+        </template>
+    </template>
+</template>
